@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>로그인 양식</legend>
+            <!-- 컨트롤 요소 위치-->
+        </fieldset>
+    </form>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>주문 양식</legend>
+            <!-- 컨트롤 요소 위치-->
+        </fieldset>
+    </form>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>회원가입 양식</legend>
+            <!-- 컨트롤 요소 위치-->
+        </fieldset>
+    </form>
+    <form action="#" method="post" >
+        <fieldset>
+            <legend>회원가입 양식</legend>
+            <!-- 컨트롤 요소 위치 -->
+            <ul>
+                <li><input type="text" name="user_name" placeholder="이름"></li>
+                <li><input type="text" name="user_id" placeholder="아이디"></li>
+                <li><input type="password" name="user_pw" placeholder="비밀번호"></li>
+                <li>
+                    성별:
+                    <label>
+                        남<input type="radio" name="gender" value="male" id="male">
+                    </label>
+                    <label>
+                        여<input type="radio" name="gender" value="female" id="female">
+                    </label>
+                </li>
+                <li>
+                    정보 저장 동의:
+                    <label for="agree">동의함</label>
+                    <input type="radio" name="infosave" value="agree" id="agree">
+                    <label for="notagree">동의안함</label>
+                    <input type="radio" name="infosave" value="notagree" id="notagree">
+                </li>
+                <li>
+                    관심사(2개 이상 선택하세요)
+                    <label>
+                        영화
+                        <input type="checkbox" name="interest" value="movie" id="movie">
+                    </label>                    
+                    <label for="sports">운동</label>
+                    <input type="checkbox" name="interest" value="sports" id="sports">
+                    <label for="book">독서</label>
+                    <input type="checkbox" name="interest" value="book" id="book">
+                </li>
+                <li><input type="file"></li>
+            </ul>
+            <p>
+                <button type="submit">가입</button>
+                <button type="reset">가입취소</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
