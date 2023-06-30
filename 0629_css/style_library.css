@@ -67,6 +67,7 @@ header #h_btm_bg .h_btm .all_nav span {}
 #r3_bg .r3_area_wrap .event_wrap .btm .title h2 {}
 #r3_bg .r3_area_wrap .event_wrap .btm .title h2 .fa {}
 #r3_bg .r3_area_wrap .event_wrap .btm .title h2 span {}
+#r3_bg .r3_area_wrap .event_wrap .btm .title h2 span span {}
 #r3_bg .r3_area_wrap .event_wrap .btm .title p {}
 #r3_bg .r3_area_wrap .event_wrap .btm .title p span {}
 #r3_bg .r3_area_wrap .event_wrap .btm .event_date {}
@@ -75,8 +76,8 @@ header #h_btm_bg .h_btm .all_nav span {}
 #r3_bg .r3_area_wrap .event_wrap .btm .event_date thead tr th {}
 #r3_bg .r3_area_wrap .event_wrap .btm .event_date tbody {}
 #r3_bg .r3_area_wrap .event_wrap .btm .event_date tbody tr {}
-#r3_bg .r3_area_wrap .event_wrap .btm .event_date tbody tr td{}
-#r3_bg .r3_area_wrap .event_wrap .btm .event_date tbody tr .event{}
+#r3_bg .r3_area_wrap .event_wrap .btm .event_date tbody tr td {}
+#r3_bg .r3_area_wrap .event_wrap .btm .event_date tbody tr .event {}
 /* e:event */
 /* e:r3 */
 /* r4 */
@@ -88,12 +89,11 @@ header #h_btm_bg .h_btm .all_nav span {}
 #r4_bg .r4_area_wrap .bk_left .top .right {}
 #r4_bg .r4_area_wrap .bk_left .top .right .more {}
 #r4_bg .r4_area_wrap .bk_left .book_contents {}
-#r4_bg .r4_area_wrap .bk_left .book_contents li {}
-#r4_bg .r4_area_wrap .bk_left .book_contents li a {}
-#r4_bg .r4_area_wrap .bk_left .book_contents li a .book_img {}
-#r4_bg .r4_area_wrap .bk_left .book_contents li a .book_img span {}
-#r4_bg .r4_area_wrap .bk_left .book_contents li a .book_img img {}
-#r4_bg .r4_area_wrap .bk_left .book_contents li a .book_name {}
+#r4_bg .r4_area_wrap .bk_left .book_contents a {}
+#r4_bg .r4_area_wrap .bk_left .book_contents a .book_img {}
+#r4_bg .r4_area_wrap .bk_left .book_contents a .book_img span {}
+#r4_bg .r4_area_wrap .bk_left .book_contents a .book_img img {}
+#r4_bg .r4_area_wrap .bk_left .book_contents a .book_name {}
 /* e:bk_left */
 #r4_bg .r4_area_wrap .bk_right {}
 #r4_bg .r4_area_wrap .bk_right .top {}
