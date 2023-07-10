@@ -1,0 +1,48 @@
+header {
+    background-color:aqua;
+    width:1200px; height:92px;
+    margin:0 auto;
+}
+header h1 {
+    width:60px; height:70px;
+    float:left;
+    margin:11px 0 0 20px;
+}
+header h1 a {}
+header h1 a img {width:100%;}
+header nav {
+    background-color:tomato;
+    float:left;
+    margin:39px 0 0 234px;
+}
+header nav ul{}
+header nav ul li {
+    float:left;
+}
+header nav ul .active {}
+header nav ul .active a {color:#36b4e5;}
+header nav ul li a {
+    font-size:1.2rem;
+    padding-right:40px;
+}
+header nav ul li:last-child a {padding-right:0;}
+header .lnb {
+    background-color:brown;
+    float:right;
+    margin: 39px 20px 0 0;
+}
+header .lnb li {
+    float:left;
+    margin-right:20px;
+}
+header .lnb li a{
+    font-size:1.2rem;
+}
+header .lnb li span {
+    width:1px; height:13px;
+    display:block;
+    background-color:#aaa;
+    margin-top:3px;
+}
+header .lnb li:last-child {margin-right:0;}
+
