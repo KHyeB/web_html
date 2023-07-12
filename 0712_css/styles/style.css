@@ -1,0 +1,108 @@
+/*rgb(95 3 128)*/
+/* 상단 배너 */
+/* 1050px */
+/* all layout */
+/* header-sprite 그룹선택자 */
+header .h_top .logo h1,
+header .h_top #searchFrm fieldset #search_btn,
+header .h_top .lnb a,
+header .h_btm .all_nav .menu {
+    display:inline-block;
+    width:36px; height:36px;
+    background: aquamarine url(../images/kurly_img/icon_set.png);
+    text-indent:-9999px;
+}
+/*  */
+.top_bnr_bg .top_bnr, header {
+    width:1050px; margin:0 auto;
+    background-color:gold;
+}
+.top_bnr_bg {background-color:rgb(95 3 128);}
+.top_bnr_bg .top_bnr {
+    height:42px;
+    display:flex;
+    flex-flow:row nowrap;
+    align-items:center;
+    justify-content:center;
+    position: relative;
+}
+.top_bnr_bg .top_bnr .adver {
+    color:#fff
+}
+.top_bnr_bg .top_bnr .adver em {
+    font-weight:700;
+}
+.top_bnr_bg .top_bnr .close {
+    position:absolute; right:0;
+}
+.top_bnr_bg .top_bnr .close .fa-xmark {}
+/* header */
+header {}
+header .user_lnb {
+    background-color: blueviolet;
+    height:35px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:flex-end;
+    align-items:center;
+}
+header .user_lnb .join {}
+header .user_lnb .login {}
+header .user_lnb .customer_survice {}
+header .user_lnb .customer_survice .fa-caret-down {}
+header .h_top {
+    background-color: brown;
+    height:63px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:center;
+}
+header .h_top .logo {
+    display:flex;
+    flex-flow:row nowrap;
+}
+header .h_top .logo h1 {
+    width:82px; height:42px;
+    background-position:0 -158px;
+}
+header .h_top .logo .market {}
+header .h_top .logo .beauty {}
+header .h_top #searchFrm {
+    border:2px solid rgb(95 3 128);
+    border-radius:5px;
+    width:400px;
+}
+header .h_top #searchFrm fieldset {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+}
+header .h_top #searchFrm fieldset #search_wrap {
+}
+header .h_top #searchFrm fieldset #search_btn {
+    background-position:0 -122px;
+}
+header .h_top .lnb {}
+header .h_top .lnb .map {background-position:0 -86px;}
+header .h_top .lnb .like {background-position:0 -50px;}
+header .h_top .lnb .cart {background-position:0 -14px;}
+header .h_btm {
+    height:56px;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    align-items:center;
+}
+header .h_btm .all_nav {}
+header .h_btm .all_nav .menu {
+    width:16px; height:14px;
+    background-position:0 0;
+}
+header .h_btm .all_nav span {}
+header .h_btm nav {}
+header .h_btm nav a {}
+header .h_btm .delivery_info {}
+header .h_btm .delivery_info em {}
+header .h_btm .delivery_info .fa-circle {font-size:1px}
+header .h_btm .delivery_info span {}
